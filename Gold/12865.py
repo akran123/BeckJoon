@@ -10,6 +10,5 @@ for _ in range(n) :
     for j in range(n,w-1,-1) :
         if dp[j]<dp[j-w]+v :
             dp[j]=dp[j-w]+v
-        else :
-            dp[j]=v
+      
 print(dp[k])
